@@ -11,7 +11,7 @@ import WordAI from './pages/WordAI';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/FluencyBand">
       <div className="app-container">
         <header className="app-header" style={{ padding: '15px 20px', background: 'white' }}>
           <div className="logo">
